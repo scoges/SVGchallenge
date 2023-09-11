@@ -1,22 +1,19 @@
-
-
 {
   "name": "svggen.2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
-    "example": "examples",
     "lib": "lib"
   },
   "dependencies": {
-    "inquire": "^0.4.8"
+    "inquire": "^0.4.8",
+    "inquirer": "^7.3.3",
+    "jest": "^29.6.4"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
-
